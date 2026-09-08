@@ -7,10 +7,24 @@ public class Mover : MonoBehaviour
 
     void Start()
     {
-        transform.Translate(1f, 0f, 0f);
+        PrintInstructions();
     }
 
     void Update()
+    {
+        MovePlayer();
+    }
+
+
+    void PrintInstructions()
+    {
+        Debug.Log("Welcome to the game!");
+        Debug.Log("Use the arrow keys or WASD to move the player.");
+        Debug.Log("Don't bump into obstacles!");
+
+    }
+
+    void MovePlayer()
     {
         float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
         float yValue = 0f;

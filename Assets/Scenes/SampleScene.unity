@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 750498968}
   - component: {fileID: 750498967}
   - component: {fileID: 750498966}
+  - component: {fileID: 750498970}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -528,6 +529,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750498970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750498965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -589,6 +602,7 @@ GameObject:
   - component: {fileID: 902700997}
   - component: {fileID: 902700996}
   - component: {fileID: 902700995}
+  - component: {fileID: 902700999}
   m_Layer: 0
   m_Name: Wall (1)
   m_TagString: Untagged
@@ -689,6 +703,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &902700999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902700994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1030141444
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,6 +994,7 @@ GameObject:
   - component: {fileID: 1204310107}
   - component: {fileID: 1204310106}
   - component: {fileID: 1204310105}
+  - component: {fileID: 1204310109}
   m_Layer: 0
   m_Name: Obstacle 3
   m_TagString: Untagged
@@ -1068,6 +1095,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204310109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204310104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1473691873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1119,7 @@ GameObject:
   - component: {fileID: 1473691876}
   - component: {fileID: 1473691875}
   - component: {fileID: 1473691874}
+  - component: {fileID: 1473691878}
   m_Layer: 0
   m_Name: Wall (2)
   m_TagString: Untagged
@@ -1180,6 +1220,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1473691878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473691873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1499220301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,6 +1244,7 @@ GameObject:
   - component: {fileID: 1499220304}
   - component: {fileID: 1499220303}
   - component: {fileID: 1499220302}
+  - component: {fileID: 1499220306}
   m_Layer: 0
   m_Name: Wall (3)
   m_TagString: Untagged
@@ -1292,6 +1345,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1499220306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499220301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1553562583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1304,6 +1369,7 @@ GameObject:
   - component: {fileID: 1553562586}
   - component: {fileID: 1553562585}
   - component: {fileID: 1553562584}
+  - component: {fileID: 1553562588}
   m_Layer: 0
   m_Name: Obstacle 2
   m_TagString: Untagged
@@ -1404,6 +1470,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553562588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553562583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1613691577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,6 +1494,7 @@ GameObject:
   - component: {fileID: 1613691580}
   - component: {fileID: 1613691579}
   - component: {fileID: 1613691578}
+  - component: {fileID: 1613691582}
   m_Layer: 0
   m_Name: Obstacle 1
   m_TagString: Untagged
@@ -1516,6 +1595,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 27.776, z: 0}
+--- !u!114 &1613691582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613691577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1985985191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,6 +1619,7 @@ GameObject:
   - component: {fileID: 1985985194}
   - component: {fileID: 1985985193}
   - component: {fileID: 1985985192}
+  - component: {fileID: 1985985196}
   m_Layer: 0
   m_Name: Obstacle 4
   m_TagString: Untagged
@@ -1628,6 +1720,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2135350091}
   m_LocalEulerAnglesHint: {x: 0, y: 31.168, z: 0}
+--- !u!114 &1985985196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985985191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55428d2109c9cbb4d8756d9a4401b83f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectHit
 --- !u!1 &1990525448
 GameObject:
   m_ObjectHideFlags: 0
