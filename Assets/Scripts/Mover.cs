@@ -15,7 +15,6 @@ public class Mover : MonoBehaviour
         MovePlayer();
     }
 
-
     void PrintInstructions()
     {
         Debug.Log("Welcome to the game!");
