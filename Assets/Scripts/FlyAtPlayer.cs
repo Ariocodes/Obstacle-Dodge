@@ -9,6 +9,14 @@ public class FlyAtPlayer : MonoBehaviour
     Transform player;
     Vector3 playerPosition;
 
+
+    void Awake()
+    {
+        // we only need this one to run the moment game starts. otherwise the player position will be saved wrongly
+        gameObject.SetActive(false); 
+    }
+
+
     void Start()
     {
         playerPosition = player.transform.position; // since it's the transform object, it returns itself when .transform is used.
