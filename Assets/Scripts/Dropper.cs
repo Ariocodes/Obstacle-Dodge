@@ -19,7 +19,7 @@ public class Dropper : MonoBehaviour
     {
         if (Time.time > dropperTimer)
         {
-            Debug.Log(dropperTimer + " seconds elapsed!");
+            // Debug.Log(dropperTimer + " seconds elapsed!");
             rb.useGravity = true;
             meshRenderer.enabled = true;
         }
