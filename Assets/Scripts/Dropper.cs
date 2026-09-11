@@ -3,7 +3,7 @@ using UnityEngine;
 public class Dropper : MonoBehaviour
 {
     [SerializeField]
-    private float dropperTimer = 3.0f;
+    private float dropperTimer = 0f;
     private Rigidbody rb;
     private MeshRenderer meshRenderer;
 
@@ -14,6 +14,7 @@ public class Dropper : MonoBehaviour
         rb.useGravity = false;
         meshRenderer.enabled = false;
     }
+    
     void Update()
     {
         if (Time.time > dropperTimer)
