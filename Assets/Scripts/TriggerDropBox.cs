@@ -16,6 +16,7 @@ public class TriggerDropBox : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             box.SetActive(true);
+            Destroy(gameObject);
         }
     }
 }
